@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=dd, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="studen_from.css">
+</head>
+
+<body>
+   
+    <div class="outer_margin">
+        <div class="heading">
+            <h2> Student Registration Form</h2>
+        </div>
+        <div class="form_margin">
+          
+            <form id="form"  name="form">
+            <h3>personal details</h3>
+                <div class="personal_first_section opacity_class">
+
+                First Name<span class="star_color">*</span>
+                <br>
+                <input class="text_div placeholder" type="text" name="first_name">
+                <br>
+
+                Last Name<span class="star_color">*</span>
+                <br><br>
+                <input class="text_divplaceholder placeholder" type="text" name="last_name">
+                <br>
+                <br>
+                Phone Number<span class="star_color">*</span>
+                <br>
+                <input class="text_div  placeholder" type="text" name="student_phone_num">
+                <br>
+
+                </div>
+
+                <div class="personal_second_section opacity_class">
+                    Father Name <span class="star_color">*</span>
+                    <br>
+                    <input class="text_div placeholder  " type="text" name="middle_name">
+                    <br>
+                    Date of Birth<span class="star_color">*</span>
+                    <br>
+                    <input class="date_placeholder text_div placeholder"type="date" name="date_of_birth">
+                    <br>
+                    Email <span class="star_color">*</span>
+                    <br>
+                    <input class="text_div placeholder" type="email" name="email">
+                    <br>
+                </div>
+
+                <h3>Address details</h3>
+
+                <div class="address_first_section opacity_class">
+                    District <span class="star_color">*</span>
+                    <br>
+                    <input class="text_div placeholder" type="text" name="district">
+                    <br>
+                    Village<span class="star_color">*</span>
+                    <br>
+                    <input class="text_div placeholder " type="text" name="village1">
+                    <br>
+                </div>
+                <div class="address_second_section opacity_class">
+                    City <span class="star_color">*</span>
+                    <br>
+                    <input class="text_div placeholder"  type="text" name="city">
+                    <br>
+                   Pin Code<span class="star_color">*</span>
+                    <br>
+                    <input class="text_div placeholder" type="text" name="pincode">
+                    <br>
+                </div>
+                <h3>Education Details</h3>
+                <div class="education_first_section opacity_class">
+                    Roll Number<span class="star_color">*</span>
+                    <br>
+                    <input class="text_div placeholder" type="text" name="student_roll_number">
+                    <br>
+                    Branch<span class="star_color">*</span>
+                    <br>
+                    <input class="text_div placeholder"type="text" name="student_branch">
+                    <br>
+                </div>
+                <div class="education_second_section opacity_class">
+                   Collage Admission Year<span class="star_color">*</span>
+                    <br>
+                    <input class="text_div placeholder" type="text" name="admission_year">
+                    <br>
+                   First Year SGPA
+                    <br>
+                    <input class="text_div placeholder" type="text" name="FE_sgpa">
+                   
+                    <br>
+                </div>
+                <div class="submit_button_div">
+                    <div class="student_form_submit_button">
+                    <input class="student_form_submit_button"type="button" name="submit_sutdent_form" value="Submit" onclick="valid_form()">
+                   </div>
+                </div>
+                <div class=" submit_button_div">
+                    <div class="  back_to_home_biv student_form_submit_button">
+                    <a href="index.html" id="back_to_home_button">Back to Home</a>
+                   </div>
+                </div>
+            </div>
+          
+            </form>
+        </div>
+    </div>
+
+    <script src="student_from.js"></script>
+</body>
+
+</html>

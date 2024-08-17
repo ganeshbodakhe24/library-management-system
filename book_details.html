@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="admin_index_nav.css">
+    <link rel="stylesheet" type="text/css" href="book_details.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="nav_div">
+        <div class="list_div1" "> <a class="nav_text" href="register_book.html">Register Book</a></div>
+        <div class="list_div2"> <a class="nav_text" href="return_book.html"> Return Book</a> </div>
+        <div class=" list_div3"><a class="nav_text" href="Borrow_book.html">Borrow Book</a></div>
+        <div <div class="list_div4"><a class="nav_text" href="student_info_by_admin.html">Student Details</a></div>
+        <div class=" selected list_div5"> Book Details</div>
+    </div>
+  
+    <div class="heading_div">
+        <h1>BOOK DETAILS </h1>
+    </div>
+    <div class="outer_margin_class">
+        <div class="form_margin">
+            <form name="form">
+                <h3>Book Number</h3>
+                <input class="placeholder" type="text" name="book_num">
+                <br>
+              
+                <input class="button_to_get_info button" type="submit" value="View Details" onclick="book_number_valid()">
+                <br>
+                <h3>OR</h3>
+                <h3>Book Name</h3>
+                <input class="placeholder" type="text" name="book_name">
+                <br>
+               
+                <input class="button_to_get_info button" type="submit" value="View Details" onclick="book_name_valid()">
+                <br>
+                <h3>OR</h3>
+                <input class="button_to_get_info button" type="submit" value="Fetch All Books"> 
+
+            </form>
+        </div>
+    </div>
+    <script src="book_details.js"></script>
+</body> 
+
+</html>

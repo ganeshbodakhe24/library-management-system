@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wNumberth=device-wNumberth, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="admin_index_nav.css">
+    <link rel="stylesheet" type="text/css" href="Register_book.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="nav_div">
+        <div class=" selected list_div1 ">Register Book </div>
+        <div class="list_div2"> <a class="nav_text" href="return_book.html"> Return Book</a> </div>
+        <div class=" list_div3"><a class="nav_text" href="Borrow_book.html">Borrow Book</a></div>
+        <div <div class="list_div4"><a class="nav_text" href="student_info_by_admin.html">Student Details</a></div>
+        <div class="list_div5"><a class="nav_text" href="book_details.html">Book Details</a></div>
+    </div>
+    <br><br>
+    <div class="heading_div"><h3>ADD BOOK</h3></div>
+    
+   <div class="outer_margin_div">
+    <div class="inner_margin_div">
+        <form name="form1">
+            <div class="first_div_form">
+                Book Title <span class="red_star">*</span>
+                <br>
+                <input class="placeholder" type="text" name="book_name">
+                <br>
+                Book Number <span class="red_star">*</span>
+                <br>
+                <input class="placeholder" type="text" name="book_num">
+                <br>
+               
+                Re-enter Book Number <span class="red_star">*</span>
+                <br>
+                <input class="placeholder" type="text" name="reendered_book_number">
+                <br>
+               Book Edition
+                <br>
+                <input class="placeholder" type="number" name="book_edition">
+                <br>
+                Author Number
+                <br>
+                <input class="placeholder" type="text" name="author_name">
+                <br>
+                Publication Date
+                <br>
+                <input class="placeholder" type="date" name="publication_date">
+            </div>
+            <div class="second_div_form">
+                Publisher name<span class="red_star">*</span>
+                <br>
+                <input class="placeholder" type="text" name="publisher_name">
+                <br>
+                Publisher Address<span class="red_star">*</span>
+                <br>
+                <input class="placeholder" type="text" name="publisher_addr">
+                <br>
+                Book Price<span class="red_star">*</span>
+                <br>
+                <input class="placeholder" type="text" name="book_price">
+                <br>
+                Book Categoriy<span class="red_star">*</span>
+                <br>
+                <select class="select">
+                    <option>Tech</option>
+                    <option>Research</option>
+                    <option>Joke</option>
+                    <option>Novel</option>
+                    <option>Story</option>
+                    <option>Mystery</option>
+                    <option>Other</option>
+                    
+                </select>
+                <br>
+               
+                Book Language <span class="red_star">*</span>
+                <br>
+                <select class="select">
+                    <option>English</option>
+                    <option>Marathi</option>
+                    <option>Hindi</option>
+                    
+                </select>
+                <br>
+               
+                Academic subject of book<span class="red_star">*</span>
+                <br>
+                <input class="placeholder" type="text" name="subject_of_book">
+                <br>
+            </div>
+            <div class="submit_button_div">
+                <input  class =" submit_button" type="submit" value="Submit" onclick="valid_form1()">
+            </div>
+           
+            
+        </form>
+
+    </div>
+   </div>
+   <h1 class=" OR heading_div ">OR</h1>
+   <br>
+   <br>
+   <div class="heading_div"><h1> Add Book Copy </h1></div>
+   <div class="outer_margin_of_book_copy">
+    <div class="inner_margin_of_book_copy">
+        <form name="form2">
+            <div class="first_div_of_book_copy_form">
+                Book Number <span class="red_star">*</span>
+                <br>
+                <input class="placeholder" type="text" name="book_number2">
+                <br>
+                 Reenter Book Number <span class="red_star">*</span>
+                <br>
+                <input class="placeholder" type="text" name="reendered_Book_Number2">
+            </div>
+            <div class="second_div_of_book_copy_form">
+                Book Copy Number <span class="red_star">*</span>
+                <br>
+                <input class="placeholder" type="number" name="book_copy_number">
+                <br>
+                Book Sub  Number <span class="red_star">*</span>
+                <br>
+                <input class="placeholder" type="text" name="book_sub_number">
+            </div>
+           
+            <div class="submit_button_div">
+                <input  class =" submit_button" type="submit" value="Submit" onclick="valid_form2()">
+            </div>
+        </form>
+        <br>
+        <br><br>
+    </div>
+   </div>
+   <script src="register_book.js"></script>
+</body>
+
+</html>

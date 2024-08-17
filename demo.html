@@ -1,0 +1,39 @@
+/* this is for if we want one div is join to the second column also then  */
+.container{
+ height: 600px;
+ width: 600px;
+ border: 2px solid black;
+ display: grid;
+ grid-template-columns: 150px 150px 150px 150px;
+ grid-gap:10px;
+ grid-row-gap: 20px;
+ overflow:hidden;
+ grid-column-gap:10px;
+ 
+  }
+  .container div{
+     padding:5px;
+ background-color: aqua;
+ border: 1px solid black;
+  }
+ #div1{
+     grid-column-start:1;
+     grid-column-end:3;
+     /* grid-row-start:2;
+     grid-row-end:3; */
+ }
+</style>
+</head>
+<body>
+<div class="container">
+ <div id="div1">1</div>
+ <div>2</div>
+ <div>3</div>
+ <div>4</div>
+ <div>5</div>
+ <div>6</div>
+ <div>7</div>
+ <div>8</div>
+ <div>9</div>
+
+</div>

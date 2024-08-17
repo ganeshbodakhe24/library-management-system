@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="photo_gallery.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Library Management</title>
+</head>
+
+<body>
+    <div class="heading_div">
+        <h1 id="heading"> WELLCOME TO LIBRARY MANAGEMENT SYSTEM</h1>
+   
+    </div>
+
+    <div class="photo_gallery_div">
+    <img  id="img" src="opened-book-with-flying-pages-butterflies-dark-backgroundgenerative-ai_391052-12859.jpg">
+  
+    </div>
+    <div class="heading_div">
+        <div class="from_regisration_text_div" >
+        <h1 id="heading fo"><a href="student_form.html">  Registration form </a></h1>
+        </div>
+    </div>
+    <div class="heading_div">
+        <h2 id="heading">Admin Login</h2>
+    </div>
+    <div class="margin_class">
+        <div class="form_div">
+            <div class="form_int_div">
+                <form name="form" action="library_staff.php" method="post">
+                 <h2 class="form_text"> Admin Id</h2>
+                  <br>
+                    <input class="placeholder" type="text" name="admin_id">
+                    <br>
+                    <h2 class="form_text">Password</h2>
+                    <input class="placeholder" type="password" name="admin_password">
+
+                    <input class="placeholder" id="submit" type="submit" value=" submit" onclick="valid_admin_login()">
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div >
+        <h2 id="heading">Student Login</h2>
+        <br>
+    </div>
+    <div class="margin_class">
+        <div class="form_div">
+            <div class="form_int_div">
+                <form>
+                 <h2 class="form_text"> Student Roll Number </h2>
+                  <br>
+                    <input class="placeholder" type="text" name="student_roll_number">
+                    <br>
+                    <h2 class="form_text">Password</h2>
+                    <input class="placeholder" type="password" name="Student_password">
+
+                    <input class="placeholder" id="submit" type="submit" value="submit" onclick="valid_student_login()">
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+<script src="index.js"></script>
+
+</body>
+
+</html>

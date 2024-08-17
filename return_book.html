@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="return_book.css">
+    <link rel="stylesheet" type="text/css" href="admin_index_nav.css">
+  
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="nav_div">
+        <div class="list_div1" "> <a class="nav_text" href="register_book.html">Register Book</a></div>
+        <div class=" selected list_div2 "> Return Book</div>
+        <div class=" list_div3"><a class="nav_text" href="Borrow_book.html">Borrow Book</a></div>
+        <div class="list_div4"><a class="nav_text" href="student_info_by_admin.html">Student Details</a></div>
+        <div class="list_div5"><a class="nav_text" href="book_details.html">Book Details</a></div>
+    </div>
+    <br>
+    <br>
+<div class="heading_div">
+    <h1>RETURN BOOK</h1>
+</div>
+<div class="outer_margin_class">
+    <div class="form_margin">
+        <form name="form">
+            <h3>Student Roll Number</h3>
+            <input class ="placeholder" type="text" name="student_roll_num">
+            <h3>Book Number</h3>
+            <input class ="placeholder" type="text" name="book_num">
+            <h3>Book Sub Number</h3>
+            <input class ="placeholder" type="text" name="book_sub_num">
+           <br><br>
+            <br>
+            <input class="button_to_get_info button" type="submit" value="Submit" onclick="valid_details()">
+          
+        </form>
+    </div>
+</div>
+<script src="return_book.js"></script>
+</body>
+</html>

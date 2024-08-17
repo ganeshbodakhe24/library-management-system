@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="admin_index_nav.css">
+    <link rel="stylesheet" type="text/css" href="student_info_by_admin.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="nav_div">
+        <div class="list_div1" "> <a class="nav_text" href="register_book.html">Register Book</a></div>
+        <div class="list_div2"> <a class="nav_text" href="return_book.html"> Return Book</a> </div>
+        <div class=" list_div3"><a class="nav_text" href="Borrow_book.html">Borrow Book</a></div>
+        <div class="selected list_div4">Student Details</a></div>
+        <div class="list_div5"><a class="nav_text" href="book_details.html">Book Details</a></div>
+    </div>
+  
+    <div class="heading_div">
+        <h1>STUDENT DETAILS </h1>
+    </div>
+    <div class="outer_margin_class">
+        <div class="form_margin">
+            <form name="form">
+                <h3>Student Roll Number</h3>
+                <input class="placeholder" type="text" name="student_roll_num">
+                <br>
+                <br>
+                <input class="button_to_get_info button" type="submit" value="View Details" onclick="valid_student_roll_number()">
+                <br>
+                <h3>OR</h3>
+              
+                <input class="button_to_get_info button" type="submit" value="Fetch all Students Profiles"> 
+
+            </form>
+        </div>
+    </div>
+    <script src="student_info_by_admin.js"></script>
+</body>
+
+</html>

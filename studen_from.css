@@ -1,0 +1,154 @@
+body{
+    background-color: rgba(126, 130, 119, 0.074);
+
+}
+.heading {
+    min-width: 500px;
+
+    height: 35px;
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgba(142, 255, 167, 0.963);
+    color: rgb(0, 12, 23);
+    /* border:1px solid rgba(0, 0, 0, 0.218); */
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgb(198, 195, 195);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 0.9;
+}
+
+.outer_margin {
+    min-width: 700px;
+    max-width:800px;
+    margin: auto;
+    margin-top: 30px;
+    height: 1000px;
+    width: 90%;
+    /* border: 2px solid black; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.form_margin {
+    padding:20px;
+    min-width: 500px;
+    
+    /* position: relative; */
+    margin: auto;
+    margin: 20px;
+    height: 800px;
+    width: 90%;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    box-shadow:0px 0px 10px 3px rgb(164, 155, 155);
+    background-color: white;
+   
+}
+.opacity_class{
+    opacity:0.9;
+}
+
+.personal_first_section {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    /* border: 1px solid black; */
+}
+
+.personal_second_section {
+    position: relative;
+    left: 450px;
+    height: 200px;
+    width: 400px;
+    /* border: 1px solid black; */
+}
+
+.address_first_section {
+    position: absolute;
+    height: 140px;
+    width: 400px;
+    /* border: 1px solid black; */
+}
+
+.address_second_section {
+    position: relative;
+    left: 450px;
+    height: 140px;
+    width: 400px;
+    /* border: 1px solid black; */
+}
+
+.star_color {
+    color: red;
+}
+
+.placeholder{
+    height:20px;
+    color:rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.education_first_section {
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    /* border: 1px solid black; */
+}
+
+.education_second_section {
+    position: relative;
+    left: 450px;
+    height: 200px;
+    width: 400px;
+    /* border: 1px solid black; */
+}
+
+
+.text_div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.submit_button_div{
+    height: 50px;
+    width: 650px;
+    /* border:1px solid black; */
+  
+}
+.student_form_submit_button{
+    
+    margin:auto;
+    text-align: center;
+    height:35px;
+    width:300px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(107, 255, 139, 0.963);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    box-shadow: 0px 0px 10px 1px rgb(198, 195, 195);
+    font-size: 20px;
+   
+}
+.student_form_submit_button:hover{
+
+    border: 1px solid black;
+   
+}
+.back_to_home_button{
+    color:black;
+}
+.back_to_home_biv{
+    color:rgb(36, 6, 6);
+    background-color: rgb(101, 250, 255);
+    box-shadow: 0px 0px 10px 1px rgb(198, 195, 195);
+    
+}
+.date_placeholder{
+    height:25px;
+    width:173px;
+    color:rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 5px;
+}

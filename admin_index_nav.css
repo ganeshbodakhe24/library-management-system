@@ -1,0 +1,123 @@
+.nav_div{
+    
+    height: 40px;
+    width: 90%;
+    margin:auto;
+    margin-top:20px;
+    /* border: 1px solid black; */
+    display:grid;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+    grid-gap:10px;
+    padding-left: 200xp;
+
+}
+/* .nav_div div{
+    
+    height: 25px;
+    background-color: rgb(255, 213, 63);
+    border: 1px solid rgba(0, 0, 0, 0.373);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 7px;
+    
+    margin-left: 20xp;
+    margin-top:5px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+} */
+.list_div1{
+    height: 25px;
+    background-color: rgb(56, 20, 232);
+
+    border: 1px solid rgba(0, 0, 0, 0.373);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 7px;
+    
+    margin-left: 20xp;
+    margin-top:5px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.list_div2{
+    height: 25px;
+    background-color: rgb(56, 20, 232);
+    border: 1px solid rgba(0, 0, 0, 0.373);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 7px;
+    color:white;
+    margin-left: 20xp;
+    margin-top:5px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.list_div3{
+    height: 25px;
+    background-color: rgb(56, 20, 232);
+    border: 1px solid rgba(0, 0, 0, 0.373);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 7px;
+    color:white;
+    margin-left: 20xp;
+    margin-top:5px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.list_div4{
+    height: 25px;
+    background-color: rgb(56, 20, 232);
+
+    border: 1px solid rgba(0, 0, 0, 0.373);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 7px;
+    color:white;
+    margin-left: 20xp;
+    margin-top:5px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.list_div5{
+    height: 25px;
+    background-color: rgb(56, 20, 232);
+
+    border: 1px solid rgba(0, 0, 0, 0.373);
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 7px;
+    color:white;
+    margin-left: 20xp;
+    margin-top:5px;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.nav_text{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.nav_div div:hover{
+    border: 1px solid rgba(20, 19, 19, 0.733);
+    background-color: rgb(17, 0, 100);
+   color: rgb(255, 253, 253);
+   box-shadow: 0px 0px 10px 1px rgba(18, 0, 0, 0.495);
+   
+}
+.selected{
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  
+}
